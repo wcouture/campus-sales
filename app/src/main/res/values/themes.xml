@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CampusSales" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/garnet</item>
+        <item name="colorAccent">@color/gold</item>
+        <item name="cardViewStyle">@style/postCards</item>
+        <item name="bottomNavigationStyle">@style/navBar</item>
+    </style>
+
+    <style name="postCards" parent="CardView">
+        <item name="cardCornerRadius">30dp</item>
+        <item name="cardBackgroundColor">@color/gold</item>
+    </style>
+
+    <style name="postTitle" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="postDescription" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="TitleTextView" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">30sp</item>
+    </style>
+     <style name="input_field" parent="Widget.AppCompat.EditText">
+         <item name="android:layout_marginLeft">50dp</item>
+         <item name="android:layout_marginRight">50dp</item>
+         <item name="android:background">@color/input_background</item>
+     </style>
+
+    <style name="PricePicker">
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:background">@color/input_background</item>
+    </style>
+
+    <style name="InputFieldLabel" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:layout_marginLeft">50dp</item>
+    </style>
+
+    <style name="navBar" parent="Widget.Design.BottomNavigationView">
+        <item name="backgroundTint">@color/gold</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+
+    <style name="Theme.CampusSales" parent="Base.Theme.CampusSales" />
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="garnet">#782F40</color>
+    <color name="gold">#CEB888</color>
+    <color name="feed_background">#E6E6E6</color>
+    <color name="loading_card">#c2c2c2</color>
+    <color name="input_background">#c7c7c7</color>
+</resources>

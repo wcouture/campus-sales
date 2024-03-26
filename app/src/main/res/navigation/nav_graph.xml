@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.zybooks.campussales.Fragments.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/nav_inbox"
+        android:name="com.zybooks.campussales.Fragments.InboxFragment"
+        android:label="@string/title_inbox"
+        tools:layout="@layout/fragment_inbox" />
+
+    <fragment
+        android:id="@+id/nav_posts"
+        android:name="com.zybooks.campussales.Fragments.PostsFragment"
+        android:label="@string/title_posts"
+        tools:layout="@layout/fragment_posts" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.zybooks.campussales.Fragments.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_new_post"
+        android:name="com.zybooks.campussales.Fragments.NewPostFragment"
+        android:label="@string/title_new_post"
+        tools:layout="@layout/fragment_new_post"
+        />
+    <fragment
+        android:id="@+id/nav_meeting_details"
+        android:name="com.zybooks.campussales.Fragments.MeetingDetailsFragment"
+        android:label="@string/title_meeting_detail"
+        tools:layout="@layout/fragment_meeting_details" />
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.zybooks.campussales.Fragments.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/nav_register"
+        android:name="com.zybooks.campussales.Fragments.RegisterFragment"
+        android:label="Register"
+        tools:layout="@layout/fragment_register" />
+
+</navigation>

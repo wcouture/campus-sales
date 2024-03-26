@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">CampusSales</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="loading">Loading posts…</string>
+
+    <string name="title_posts">My Posts</string>
+    <string name="title_inbox">Inbox</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_new_post">New Sale Post</string>
+    <string name="title_meeting_detail">Meeting Details</string>
+
+    <string name="placeholder_profile_name">John Smith</string>
+
+    <string name="title_input_label">Title</string>
+    <string name="desc_input_label">Description</string>
+    <string name="price_input_label">Price</string>
+    <string name="image_input_label">Select Image</string>
+    <string name="submit_button">Submit Post</string>
+
+    <string name="select_meeting_details">Select Meeting Details</string>
+    <string name="detail_location">Location:</string>
+    <string name="detail_time">Time:</string>
+    <string name="detail_date">Date:</string>
+    <string name="submit_details_button_label">Submit</string>
+
+    <string name="no_posts">You Have No Posts</string>
+    <string name="no_feed_posts">No Posts</string>
+    <string name="login_for_posts">Login to view your posts</string>
+    <string name="inbox_loading">Loading messages…</string>
+    <string name="inbox_empty">No Messages</string>
+
+    <string name="buy_request_message">I am interested in buying:</string>
+
+    <string-array name="meeting_locations">
+        <item>Landis Fountain</item>
+        <item>Wescott Fountain</item>
+        <item>Strozier Steps</item>
+        <item>Dirac Statue</item>
+        <item>Unconquered Statue</item>
+    </string-array>
+</resources>

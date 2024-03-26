@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CampusSales" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/gold</item>
+        <item name="colorAccent">@color/gold</item>
+        <item name="cardViewStyle">@style/postCards</item>
+        <item name="bottomNavigationStyle">@style/navBar</item>
+    </style>
+
+    <style name="postCards" parent="CardView">
+        <item name="cardCornerRadius">30dp</item>
+        <item name="cardBackgroundColor">@color/garnet</item>
+        <item name="elevation">20dp</item>
+    </style>
+
+    <style name="navBar" parent="Widget.Design.BottomNavigationView">
+        <item name="backgroundTint">@color/garnet</item>
+    </style>
+
+</resources>
