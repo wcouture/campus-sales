@@ -2,7 +2,7 @@
 
 A vibrant marketplace app tailored for college campuses, CampusSales empowers students to buy and sell items within their community. With user-friendly features like post creation, likes, and direct messaging, CampusSales fosters seamless and secure campus-centric transactions.
 
-Table of Contents
+**Table of Contents**
 	1.	Features
 	2.	Technologies Used
 	3.	Installation
@@ -10,7 +10,7 @@ Table of Contents
 	5.	Contributing
 	6.	License
 
-**Features **🚀
+**Features** 🚀
 	•	Effortless Post Creation: Users can quickly create posts showcasing items for sale with images and descriptions.
 	•	Like & Engage: Posts can be liked to gauge interest and engagement.
 	•	Community-Driven: Exclusively designed for campus communities, promoting trust and convenience.
